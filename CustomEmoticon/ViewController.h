@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  CustomEmoticon
+//
+//  Created by XHJ on 2017/5/15.
+//  Copyright © 2017年 XHJ. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
