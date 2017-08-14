@@ -91,6 +91,13 @@
 			path = Empty2;
 			sourceTree = "<group>";
 		};
+		1FA9E2471F41B89400D072DE /* Empty3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Empty3;
+			sourceTree = "<group>";
+		};
 		CC4577AF1EC9939B00B35560 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +119,7 @@
 		CC4577BA1EC9939B00B35560 /* CustomEmoticon */ = {
 			isa = PBXGroup;
 			children = (
+				1FA9E2471F41B89400D072DE /* Empty3 */,
 				1FA9E23F1F41979000D072DE /* Empty1 */,
 				1FA9E2401F41979000D072DE /* Empty2 */,
 				CC4577BE1EC9939B00B35560 /* AppDelegate.h */,
