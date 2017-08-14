@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FA9E2461F419D9C00D072DE /* EmptyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9E2451F419D9C00D072DE /* EmptyClass.m */; };
 		CC4577BD1EC9939B00B35560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4577BC1EC9939B00B35560 /* main.m */; };
 		CC4577C01EC9939B00B35560 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4577BF1EC9939B00B35560 /* AppDelegate.m */; };
 		CC4577C31EC9939B00B35560 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4577C21EC9939B00B35560 /* ViewController.m */; };
 		CC4577C61EC9939B00B35560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4577C41EC9939B00B35560 /* Main.storyboard */; };
 		CC4577C81EC9939B00B35560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4577C71EC9939B00B35560 /* Assets.xcassets */; };
 		CC4577CB1EC9939B00B35560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4577C91EC9939B00B35560 /* LaunchScreen.storyboard */; };
-		CC4577D61EC9939B00B35560 /* CustomEmoticonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4577D51EC9939B00B35560 /* CustomEmoticonTests.m */; };
-		CC4577E11EC9939B00B35560 /* CustomEmoticonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4577E01EC9939B00B35560 /* CustomEmoticonUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FA9E2441F419D9C00D072DE /* EmptyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyClass.h; sourceTree = "<group>"; };
+		1FA9E2451F419D9C00D072DE /* EmptyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyClass.m; sourceTree = "<group>"; };
 		CC4577B81EC9939B00B35560 /* CustomEmoticon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomEmoticon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4577BC1EC9939B00B35560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC4577BE1EC9939B00B35560 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,11 +47,7 @@
 		CC4577CA1EC9939B00B35560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC4577CC1EC9939B00B35560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC4577D11EC9939B00B35560 /* CustomEmoticonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomEmoticonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC4577D51EC9939B00B35560 /* CustomEmoticonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomEmoticonTests.m; sourceTree = "<group>"; };
-		CC4577D71EC9939B00B35560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC4577DC1EC9939B00B35560 /* CustomEmoticonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomEmoticonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC4577E01EC9939B00B35560 /* CustomEmoticonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomEmoticonUITests.m; sourceTree = "<group>"; };
-		CC4577E21EC9939B00B35560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +78,8 @@
 		1FA9E23F1F41979000D072DE /* Empty1 */ = {
 			isa = PBXGroup;
 			children = (
+				1FA9E2441F419D9C00D072DE /* EmptyClass.h */,
+				1FA9E2451F419D9C00D072DE /* EmptyClass.m */,
 			);
 			path = Empty1;
 			sourceTree = "<group>";
@@ -96,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				CC4577BA1EC9939B00B35560 /* CustomEmoticon */,
-				CC4577D41EC9939B00B35560 /* CustomEmoticonTests */,
-				CC4577DF1EC9939B00B35560 /* CustomEmoticonUITests */,
 				CC4577B91EC9939B00B35560 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,24 +133,6 @@
 				CC4577BC1EC9939B00B35560 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CC4577D41EC9939B00B35560 /* CustomEmoticonTests */ = {
-			isa = PBXGroup;
-			children = (
-				CC4577D51EC9939B00B35560 /* CustomEmoticonTests.m */,
-				CC4577D71EC9939B00B35560 /* Info.plist */,
-			);
-			path = CustomEmoticonTests;
-			sourceTree = "<group>";
-		};
-		CC4577DF1EC9939B00B35560 /* CustomEmoticonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CC4577E01EC9939B00B35560 /* CustomEmoticonUITests.m */,
-				CC4577E21EC9939B00B35560 /* Info.plist */,
-			);
-			path = CustomEmoticonUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA9E2461F419D9C00D072DE /* EmptyClass.m in Sources */,
 				CC4577C31EC9939B00B35560 /* ViewController.m in Sources */,
 				CC4577C01EC9939B00B35560 /* AppDelegate.m in Sources */,
 				CC4577BD1EC9939B00B35560 /* main.m in Sources */,
@@ -302,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC4577D61EC9939B00B35560 /* CustomEmoticonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC4577E11EC9939B00B35560 /* CustomEmoticonUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
