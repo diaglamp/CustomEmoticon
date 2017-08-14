@@ -78,6 +78,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FA9E23F1F41979000D072DE /* Empty1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Empty1;
+			sourceTree = "<group>";
+		};
+		1FA9E2401F41979000D072DE /* Empty2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Empty2;
+			sourceTree = "<group>";
+		};
 		CC4577AF1EC9939B00B35560 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +115,8 @@
 		CC4577BA1EC9939B00B35560 /* CustomEmoticon */ = {
 			isa = PBXGroup;
 			children = (
+				1FA9E23F1F41979000D072DE /* Empty1 */,
+				1FA9E2401F41979000D072DE /* Empty2 */,
 				CC4577BE1EC9939B00B35560 /* AppDelegate.h */,
 				CC4577BF1EC9939B00B35560 /* AppDelegate.m */,
 				CC4577C11EC9939B00B35560 /* ViewController.h */,
@@ -518,6 +534,7 @@
 				CC4577E71EC9939B00B35560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC4577E81EC9939B00B35560 /* Build configuration list for PBXNativeTarget "CustomEmoticonTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +543,7 @@
 				CC4577EA1EC9939B00B35560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC4577EB1EC9939B00B35560 /* Build configuration list for PBXNativeTarget "CustomEmoticonUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +552,7 @@
 				CC4577ED1EC9939B00B35560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
